@@ -1,0 +1,235 @@
+<html>
+<head>
+<title>Graphical Friends Help File</title>
+</head>
+
+<body>
+<pre>
+<h1>Graphical Friends (gfriends) Help File</h1>
+[By scos506 and ijgo605]<br>
+
+<table border="0" bgcolor="#ffc800"><tr><td>To run Graphical Friends type <b><u>~stevec/gfriends</u></b> on any CSE machine or login server.</td></tr></table>
+
+<table border="0" bgcolor="#00ff00"><tr><td>A great thing to save you time would be to put this line in your ~/.bashrc file: <br>
+<b>alias gfriends='~stevec/gfriends'</b><br>
+Or type this in your ~/bin folder: <br>
+<b>ln -s /home/stevec/gfriends</b><br>
+That way you need only type <b>gfriends</b> into a terminal to run it.
+</td></tr></table>
+
+<table border="0" bgcolor="#ddddff" width="100%">
+<tr><td><u><b>Friends list format</b></u></td></tr></table>
+
+You friends list is located in your home directory as "<b>~/.friends</b>".
+Normally friends files should have lines that look like this:
+
+<table border="1"><tr><td>name = &lt;username&gt;, &lt;real name&gt;</td></tr></table>
+
+gfriends is the same.
+
+<table border="0" bgcolor="#ddddff" width="100%">
+<tr><td><u><b>Custom Groups/Colours of people in gfriends</b></u> (adapted from ijgo605's fork)</td></tr></table>
+
+In gfriends, your friends always come up as green and random people as blue.
+
+You can define your own custom groups (and colours to match) in your ~/.friends
+file. This addition outlined below won't effect the running of normal 'friends'
+as 'friends' just ignores anything it doesn't like.
+
+To put people into a custom group just put the following line before the group
+of people.
+
+<table border="1"><tr><td>group:&lt;group name&gt;:&lt;R&gt;,&lt;G&gt;,&lt;B&gt;</td></tr></table>
+
+where &lt;group name&gt; is the name of the group you want to show up in
+                         the side bar of gfriends
+  and &lt;R&gt;,&lt;G&gt;,&lt;B&gt; is the RGB colour value you would like to
+                         make this group of people.
+
+For example, here is someone's short ~/.friends file.
+
+<table border="1">
+<tr><td>
+name = stevec,  Steve<br>
+name = ijgo605, Ian<br>
+name = wyos,    Yose<br>
+name = glenk,   Glen<br>
+group:CSEsoc Exec:255,255,0<br>
+name = cmac,    Chris (VP)<br>
+name = ramanak, Ramana (Tech)<br>
+group:Students:0,255,255<br>
+name = davidc,  David<br>
+name = cpu,     char*
+</td></tr>
+</table>
+
+So when this file is loaded up in gfriends, the people at the top of the file (stevec,
+ijgo605, wyos, glenk) will come out the normal green colour and be in the group 'friends'
+as normal. Those under the 'CSEsoc Exec' heading will be coloured yellow (RGB:255,255,0)
+and those under the 'Students' heading will be coloured cyan (RGB:0,255,255).
+
+Notice that the first few names are automatically put in the friends (green) group as
+usual. When gfriends runs it automatically pretends this line ("group:friends:0,255,0") 
+is the first line in your ~/.friends file so that everyone from the start of the file is 
+assumed to be in the 'friends' group.
+
+Note: to make gfriends efficient, i don't do any error checking when reading in custom group
+formatting lines. If you can't type properly then you miss out. (For those unsure about what 
+could go wrong this can include putting a colon ':' character in the group name, or putting
+a value for either R,G or B that is outside the 0-255 (inclusive) range.)
+
+<table border="0" bgcolor="#ddddff" width="100%">
+<tr><td><u><b>Custom username colours</b></u> (adapted from scos506's etstats program) </td></tr></table>
+
+You can specify a friend's nick name to appear in any colour format. It works the exact same way
+as coloured player names in Quake3/ET. As with Quake/ET naming, a '^' character followed by 
+a keyboard character will change to colour of the text from that point onwards.
+
+Simply put these colour mod characters into the nickname part of the person in your .friends file,
+for example below:
+
+<table border="1">
+<tr><td>
+name = stevec, ^1[5kz]^4SC <br>
+name = cmac, ^1[5kz]^fcmac
+</td></tr>
+</table>
+
+These names would be displayed in gfriends as:
+<font color="#ff0000">[5kz]</font><font color="#0000ff">SC</font>
+<font color="#ff0000">[5kz]</font><font color="#3399cc">cmac</font>
+
+<u>Note</u>: This will override any custom colours you have assigned to the person's
+group (if you are using custom group colours)
+
+<u>Note</u>: The colour mod characters will obviously look wierd under a text based 
+friends script. 
+
+<u>Some common Q3/ET colour modifiers</u>
+
+Mod  RGB          Colour
+ ^0    0,  0,  0  <font color="#020202">black</font>
+ ^1  255,  0,  0  <font color="#ff0000">red</font>
+ ^2    0,255,  0  <font color="#00ff00">green</font>
+ ^3  255,255,  0  <font color="#ffff00">yellow</font>
+ ^4    0,  0,255  <font color="#0000ff">blue</font>
+ ^5    0,255,255  <font color="#00ffff">cyan</font>
+ ^6  255,  0,255  <font color="#ff00ff">purple</font>
+ ^7  255,255,255  <font color="#ffffff">white</font> (white)
+ ^8  238,119,  1  <font color="#ee7701">orange</font>
+ ^9  127,127,127  <font color="#7f7f7f">grey</font>
+
+<table border="0" bgcolor="#ddddff" width="100%">
+<tr><td><u><b>Checking printer queues</b></u> (adapted from ijgo605's fork)</td></tr></table>
+
+Move your mouse over a printer to see the length of the queue. Click on a printer to run
+'lpq' on the printer to see a complete queue for the printer.
+
+<table border="0" bgcolor="#ddddff" width="100%">
+<tr><td><u><b>Checking someone's details</b></u> (adapted from ijgo605's fork)</td></tr></table>
+
+Click a person to see their name and classes they are in.
+
+<table border="0" bgcolor="#ddddff" width="100%">
+<tr><td><u><b>Person Options</b></u> (from scos506's fork)</td></tr></table>
+
+If you right click on a person, a menu appears with options of what you can do with that
+person's details.
+
+At the moment there are four options:
+
+ "Add to friends list": brings up an input window to enter the person's nickname, then
+                        appends an appropriate line to your ~/.friends file
+                        (Note: this just appends the line to the end of your ~/.friends file.
+                         If you have custom groups set up you will have to move the line into
+                         the appropriate group yourself. Why do you have to move it yourself...
+			 because at the moment i cbf making something to do it)
+
+ "talk &lt;user&gt;@&lt;host&gt;": opens an xterm running the talk command, so you
+                                 can talk to the person.
+
+ "pp &lt;user&gt;": opens an xterm displaying the complete 'pp'/'acc' details of the given person.
+
+ "qstat &lt;host&gt;": opens an xterm displaying the details of a Quake 3 server if one is running
+                 on that host.
+<table border="0" bgcolor="#ddddff" width="100%">
+<tr><td><u><b>Toggle Random's IDs</b></u> (from scos506's fork)</td></tr></table>
+
+You can toggle whether or not to show random (blue) people's IDs on the screen. In the
+sidebar simply click [show ids] to toggle the IDs on or off.
+
+<table border="0" bgcolor="#ddddff" width="100%">
+<tr><td><u><b>Refreshing the labs</b></u> (from scos506's fork)</td></tr></table>
+
+gfriends doesn't auto update itself (for reasons related to keeping SS happy).
+
+You can rescan the labs to update the display by clicking on the "Rescan Labs" button
+in the top right corner of the window. The button should change its label to "Scanning...",
+before returning to "Rescan Labs" when the scan has finished.
+
+<table border="0" bgcolor="#ddddff" width="100%">
+<tr><td><u><b>Checking if a lab will be booked later</b></u> (ijgo605's idea implemented by scos506) (data is now sourced from the Rectangles Project database)</td></tr></table>
+
+Hate opening up some work ready to go, or Quake, only to be logged out by a class 10mins later?
+
+If you click on the name of the lab in gfriends it will display all the times the 
+lab is booked out for classes (or other events) for the whole day.
+
+<table border="0" bgcolor="#ddddff" width="100%">
+<tr><td><u><b>Having scroll bars for people with low resolution screens (esp. laptops/notebooks)</b></u> (from scos506's fork)</td></tr></table>
+
+If your screen resolution is too small to display the complete normal sized gfriends window,
+the gfriends includes some scroll bars for you to navigate the lab map.
+
+<table border="0" bgcolor="#ddddff" width="100%">
+<tr><td><u><b>Zoom into a Lab</b></u> (from scos506's fork)</td></tr></table>
+
+If you click on the zoom icon to the left of the lab name (the 4 directional arrow) you will
+be able to see a zoomed in view of the lab. To close this zoomed in window, click the 'X' 
+on the top right corner of the zoomed in lab. This is useful for tutors.
+
+<table border="0" bgcolor="#ddddff" width="100%">
+<tr><td><u><b>Tutor Options - Add lab to friends list</b></u> (inspired by a CSESoc meeting)</td></tr></table>
+
+When zoomed into a lab, you can select to append the whole lab to your ~/.friends list
+under the title "Students". This is useful for the first lab when all your students
+actually turn up. 
+
+<table border="0" bgcolor="#ddddff" width="100%">
+<tr><td><u><b>Tutor Options - Gen PDF cheat sheet</b></u> (inspired by a CSESoc meeting)</td></tr></table>
+
+When zoomed into a lab, you can generate a PDF cheat sheet of everyone's name in the lab.
+Most tutor's are friendly, but they have trouble remembering people's names in the
+first few weeks. Generate the PDF sheet, print it out and hide it under your marking
+sheet to peek at. 
+
+<!--
+<table border="0" bgcolor="#ddddff" width="100%">
+<tr><td><u><b>Username Alias Updater</b></u> (robertm's idea implemented by stevec)</td></tr></table>
+
+If you're one of the cool people in CSE you and your friends will gradually get custom
+logins. When your friends' logins change you used to have to update them in your ~/.friends
+file so you can still find them. Now Graphical Friends does the update for you. It checks
+if any of your friends have newer logins than appear in your ~/.friends file and inserts
+a new line for you.
+-->
+
+<table border="0" bgcolor="#66ff66" width="100%">
+<tr><td><u><b>Coming soon...</b></u></td></tr></table>
+
+Suggestions in production:
+<ul>
+<li>Scan the labs for Q3/ET/Trem servers, displayed on an icon overlay</li>
+</ul>
+
+Suggestions not in production, but may be implemented in the long term:
+<ul>
+<li>Monitoring the location of Loc (Help Desk guy) so we know when he's coming to catch us eating or drinking in the labs</li>
+<li>3-D OpenGL version (called glfriends?) (Bad things about this: people use gfriends of the CSE servers with no OpenGL; loading time)</li>
+</ul>
+
+Any suggestions for more features, just mail Steve.
+
+</pre>
+</body>
+</html>

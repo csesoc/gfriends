@@ -1,0 +1,6 @@
+#!/usr/local/bin/perl
+
+if (!defined($ARGV[0])) die "No args";
+
+system("xterm -geom 100x40 -exec \"pp $ARGV[0] ; ask 'Press to close'\"");
+

@@ -1,0 +1,8 @@
+#!/usr/local/bin/bash
+
+echo "Users of gfriends (since 29 Apr 2005)"
+echo "-------------------------------------"
+cat /home/scossell/bin/gfred.users |sed -e "s/ /\t/" |cut -f 1|sort |uniq -c |sort
+echo "Frequency of days used (since 29 Apr 2005)"
+echo "------------------------------------------"
+cat /home/scossell/bin/gfred.users |sed -e "s/ /\t/"|cut -f 2|sed "s/ /\t/"|cut -f 1|sort|uniq -c|sort|tail -n 7

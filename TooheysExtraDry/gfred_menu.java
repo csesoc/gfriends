@@ -1,0 +1,148 @@
+import java.io.*;
+import java.util.*;
+import java.lang.*;
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+
+public class gfred_menu extends Frame implements MouseListener {
+    
+    String username;
+    String hostname;
+    boolean mouse_entered = false;
+
+    public gfred_menu(int mx, int my, String username_, String hostname_) {
+	super();
+	this.setBackground(Color.black);
+	this.setUndecorated(true);
+	this.setLocation(mx,my);
+	this.setSize(160,100);
+	this.addMouseListener(this);
+	this.setVisible(true);	
+	username = username_;
+	hostname = hostname_;
+    }
+    
+    public void paint(Graphics g) {
+	g.setColor(new Color(255,255,0));
+	g.fillRoundRect(6,2,g.getFontMetrics().stringWidth(username) + 4,70,5,5);
+	g.setColor(new Color(0,255,0));
+	g.fillRoundRect(2,22,g.getFontMetrics().stringWidth("Add to friends list") + 4, 16,5,5);
+	g.fillRoundRect(2,42,g.getFontMetrics().stringWidth("talk " + username + "@" + hostname)    + 4, 16,5,5);
+	g.fillRoundRect(2,62,g.getFontMetrics().stringWidth("pp " + username) + 4, 16,5,5);
+	g.fillRoundRect(2,82,g.getFontMetrics().stringWidth("qstat " + hostname) + 4, 16, 5, 5);
+
+	g.setColor(Color.black);
+	g.drawString(username, 8, 15);    
+	
+	g.drawString("Add to friends list", 3, 35);
+	g.drawString("talk " + username + "@" + hostname,    3, 55);
+	g.drawString("pp " + username, 3, 75);
+	g.drawString("qstat " + hostname, 3, 95);
+    }
+
+    public boolean inRange(int a, int n, int b) {
+	return (a <= n && n <= b);
+    }
+
+    public void mouseClicked(MouseEvent e) {
+	if (inRange(20, e.getY(), 39)) {
+	    gfred_add_login_to_friends_list_interface add_gui = new gfred_add_login_to_friends_list_interface(username);
+	}
+	if (inRange(40, e.getY(), 59)) {
+	    try {
+		String params[] = {"./runtalk.pl",username,hostname};
+		Process pinger = Runtime.getRuntime().exec(params);
+	    } catch (IOException ex) {
+		System.out.println("ERROR: Could not run talk command on " + username + "@" + hostname);
+	    }
+	    
+	}
+	if (inRange(60, e.getY(), 79)) {
+	    try {
+		String params[] = {"./showxterm_pp.pl",username};
+		Process pinger = Runtime.getRuntime().exec(params);
+	    } catch (IOException ex) {
+		System.out.println("ERROR: Could not run pp command on " + username);
+	    }
+	}
+	if (inRange(80, e.getY(), 99)) {
+	    try {
+		String params[] = {"./showxterm_qstat.pl", hostname};
+		Process pinger = Runtime.getRuntime().exec(params);
+	    } catch (IOException ex) {
+		System.out.println("ERROR: Could not run qstat on " + hostname);
+	    }
+	}
+	this.setVisible(false);
+    }
+
+    public void mousePressed(MouseEvent e) {
+
+    }
+
+    public void mouseReleased(MouseEvent e) {
+
+    }
+
+    public void mouseEntered(MouseEvent e) {
+	mouse_entered = true;
+    }
+    
+    public void mouseExited(MouseEvent e) {	
+	if (mouse_entered) this.setVisible(false);
+    }
+
+}
+
+
+class gfred_add_login_to_friends_list_interface extends Frame implements ActionListener {
+    
+    JButton save, cancel;
+    JTextField nickname;
+    String login;
+    Label login_label;
+
+    public gfred_add_login_to_friends_list_interface(String login_) {
+	super("Add person to friends list...");
+	
+	login = login_;
+
+	this.setLayout(new GridLayout(3,2));       	
+
+	this.add(new Label("login:"));
+	this.add(login_label = new Label(login));
+	login_label.setBackground(Color.white);
+	
+	this.add(new Label("nickname:"));
+	this.add(nickname = new JTextField());
+
+	this.add(save = new JButton("OK"));
+	this.add(cancel = new JButton("Cancel"));
+
+	save.addActionListener(this);
+	cancel.addActionListener(this);
+	
+	this.setLocation(300,300);
+	this.setSize(200,80);
+	this.setVisible(true);
+	
+    }
+    
+    public void actionPerformed(ActionEvent e) {
+	
+	if (e.getSource().equals(save)) {
+	    try {
+		if (nickname.getText().equals("")) nickname.setText(login);
+		String params[] = {"./add_login_to_fred_list.pl", login, "\"" + nickname.getText() + "\""};
+		Process pinger = Runtime.getRuntime().exec(params);
+	    } catch (Exception ex) {
+		System.out.println("Could not add (" + login + ")(" + nickname.getText() + ") to friends list");
+	    }
+	}
+
+	this.setVisible(false);
+	
+    }
+    
+}

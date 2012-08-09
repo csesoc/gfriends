@@ -1,0 +1,48 @@
+#!/usr/local/bin/perl
+
+open(PP, "pp $1|grep -e 'User classes'|");
+
+while(<PP>) {
+
+    if (/\s3529_Student/) {
+	print "Comm/CompSci\n";
+    } elsif (/\s3645_Student/) {
+	print "CompEng\n";
+    } elsif (/\s3647_Student/) {
+	print "Binf\n";
+    } elsif (/\s3648_Student/) {
+	print "Seng\n";
+    } elsif (/\s3651_Student/) {
+	print "Seng/Sci\n";
+    } elsif (/\s3652_Student/) {
+	print "Seng/Arts\n";
+    } elsif (/\s3653_Student/) {
+	print "Seng/Comm\n";
+    } elsif (/\s3715_Student/) {
+	print "Eng/Comm\n";
+    } elsif (/\s3722_Student/) {
+	print "CompEng/Arts\n";
+    } elsif (/\s3726_Student/) {
+	print "CompEng/Sci\n";
+    } elsif (/\s3728_Student/) {
+	print "CompEng/Biomed\n";
+    } elsif (/\s3749_Student/) {
+	print "Seng/Biomed\n";
+    } elsif (/\s3755_Student/) {
+	print "Binf/Sci\n";
+    } elsif (/\s3756_Student/) {
+	print "Binf/Arts\n";
+    } elsif (/\s3757_Student/) {
+	print "Binf/Biomed\n";
+    } elsif (/\s3978_Student/) {
+	print "CompSci\n";
+    } elsif (/\s3968_Student/) {
+	print "CompSci/Arts\n";
+    } elsif (/\s3982_Student/) {
+	print "CompSco/BDM\n";
+    } elsif (/\s3983_Student/) {
+	print "CompSci/Sci\n";
+    } else {
+	print "Eng/Sci\n";
+    }
+}

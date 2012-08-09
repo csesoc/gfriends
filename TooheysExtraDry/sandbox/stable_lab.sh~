@@ -1,0 +1,20 @@
+#!/usr/local/bin/bash
+
+
+lab tuba &
+lab harp &
+lab drum &
+lab oboe &
+lab moog &
+lab spoons &
+lab bell &
+lab leaf &
+lab pipe &
+lab bugle &
+lab piano &
+lab organ &
+lab clavier &
+
+sleep 5
+
+killall lab

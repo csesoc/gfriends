@@ -1,0 +1,5 @@
+#!/usr/local/bin/bash
+
+cd /tmp
+pdflatex cheatsheet.tex
+xpdf cheatsheet.pdf

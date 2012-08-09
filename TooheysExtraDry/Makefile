@@ -1,0 +1,7 @@
+
+
+compile:
+	javac gfred.java
+
+
+

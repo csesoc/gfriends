@@ -1,0 +1,28 @@
+# gfriends Ad Banner config
+# comments must have a '#' as the 0th character in the line
+# image displays in gfriends as 340x150 pixels
+
+
+# IMAGE
+# place an absolute (non-tilde) path for the location of the image
+#  on a local account, or put the word "null" for no picture
+
+image:/home/stevec/TooheysExtraDry/banners/csesoc_default.png
+
+#image:/home/stevec/TooheysExtraDry/banners/gfred_eng_sports_day.png
+#image:/home/stevec/TooheysExtraDry/banners/elec_mech_mats_csesoc_bbq.png
+#image:/home/stevec/TooheysExtraDry/banners/csesoc_trivia.png
+#image:/home/stevec/TooheysExtraDry/banners/csesoc_rege2.png
+#image:/home/stevec/TooheysExtraDry/banners/csesoc_installfest.png
+#image:/home/stevec/TooheysExtraDry/banners/csesoc_murder_and_poker.png
+#image:null
+
+
+# LINK
+# A complete URL for a page to be loaded when the Ad Banner is clicked
+
+
+link:http://www.csesoc.unsw.edu.au/
+
+#link:http://csesoc-server.cse.unsw.edu.au/~stevec/sd_web/
+#link:http://www.csesoc.unsw.edu.au/site/tech/installfest/

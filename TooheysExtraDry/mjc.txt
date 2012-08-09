@@ -1,0 +1,95 @@
+<br />
+<b>Warning</b>:  pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Connection refused
+	Is the server running locally and accepting
+	connections on Unix domain socket &quot;/srvr/rectangles/pgsql830/.s.PGSQL.5432&quot;? in <b>/export/grieg/1/rectangles/public_html/cgi-bin/labs/labusage.php</b> on line <b>22</b><br />
+DB CONNECT ERROR<br />
+<b>Warning</b>:  pg_query(): supplied argument is not a valid PostgreSQL link resource in <b>/export/grieg/1/rectangles/public_html/cgi-bin/labs/labusage.php</b> on line <b>68</b><br />
+<br />
+<b>Warning</b>:  pg_fetch_row() expects parameter 1 to be resource, boolean given in <b>/export/grieg/1/rectangles/public_html/cgi-bin/labs/labusage.php</b> on line <b>69</b><br />
+<br />
+<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/export/grieg/1/rectangles/public_html/cgi-bin/labs/labusage.php</b> on line <b>31</b><br />
+<br />
+<b>Warning</b>:  pg_query(): supplied argument is not a valid PostgreSQL link resource in <b>/export/grieg/1/rectangles/public_html/cgi-bin/labs/labusage.php</b> on line <b>68</b><br />
+<br />
+<b>Warning</b>:  pg_fetch_row() expects parameter 1 to be resource, boolean given in <b>/export/grieg/1/rectangles/public_html/cgi-bin/labs/labusage.php</b> on line <b>69</b><br />
+<br />
+<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/export/grieg/1/rectangles/public_html/cgi-bin/labs/labusage.php</b> on line <b>31</b><br />
+<br />
+<b>Warning</b>:  pg_query(): supplied argument is not a valid PostgreSQL link resource in <b>/export/grieg/1/rectangles/public_html/cgi-bin/labs/labusage.php</b> on line <b>68</b><br />
+<br />
+<b>Warning</b>:  pg_fetch_row() expects parameter 1 to be resource, boolean given in <b>/export/grieg/1/rectangles/public_html/cgi-bin/labs/labusage.php</b> on line <b>69</b><br />
+<br />
+<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/export/grieg/1/rectangles/public_html/cgi-bin/labs/labusage.php</b> on line <b>31</b><br />
+<br />
+<b>Warning</b>:  pg_query(): supplied argument is not a valid PostgreSQL link resource in <b>/export/grieg/1/rectangles/public_html/cgi-bin/labs/labusage.php</b> on line <b>68</b><br />
+<br />
+<b>Warning</b>:  pg_fetch_row() expects parameter 1 to be resource, boolean given in <b>/export/grieg/1/rectangles/public_html/cgi-bin/labs/labusage.php</b> on line <b>69</b><br />
+<br />
+<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/export/grieg/1/rectangles/public_html/cgi-bin/labs/labusage.php</b> on line <b>31</b><br />
+<br />
+<b>Warning</b>:  pg_query(): supplied argument is not a valid PostgreSQL link resource in <b>/export/grieg/1/rectangles/public_html/cgi-bin/labs/labusage.php</b> on line <b>68</b><br />
+<br />
+<b>Warning</b>:  pg_fetch_row() expects parameter 1 to be resource, boolean given in <b>/export/grieg/1/rectangles/public_html/cgi-bin/labs/labusage.php</b> on line <b>69</b><br />
+<br />
+<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/export/grieg/1/rectangles/public_html/cgi-bin/labs/labusage.php</b> on line <b>31</b><br />
+<br />
+<b>Warning</b>:  pg_query(): supplied argument is not a valid PostgreSQL link resource in <b>/export/grieg/1/rectangles/public_html/cgi-bin/labs/labusage.php</b> on line <b>68</b><br />
+<br />
+<b>Warning</b>:  pg_fetch_row() expects parameter 1 to be resource, boolean given in <b>/export/grieg/1/rectangles/public_html/cgi-bin/labs/labusage.php</b> on line <b>69</b><br />
+<br />
+<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/export/grieg/1/rectangles/public_html/cgi-bin/labs/labusage.php</b> on line <b>31</b><br />
+<br />
+<b>Warning</b>:  pg_query(): supplied argument is not a valid PostgreSQL link resource in <b>/export/grieg/1/rectangles/public_html/cgi-bin/labs/labusage.php</b> on line <b>68</b><br />
+<br />
+<b>Warning</b>:  pg_fetch_row() expects parameter 1 to be resource, boolean given in <b>/export/grieg/1/rectangles/public_html/cgi-bin/labs/labusage.php</b> on line <b>69</b><br />
+<br />
+<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/export/grieg/1/rectangles/public_html/cgi-bin/labs/labusage.php</b> on line <b>31</b><br />
+<br />
+<b>Warning</b>:  pg_query(): supplied argument is not a valid PostgreSQL link resource in <b>/export/grieg/1/rectangles/public_html/cgi-bin/labs/labusage.php</b> on line <b>68</b><br />
+<br />
+<b>Warning</b>:  pg_fetch_row() expects parameter 1 to be resource, boolean given in <b>/export/grieg/1/rectangles/public_html/cgi-bin/labs/labusage.php</b> on line <b>69</b><br />
+<br />
+<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/export/grieg/1/rectangles/public_html/cgi-bin/labs/labusage.php</b> on line <b>31</b><br />
+<br />
+<b>Warning</b>:  pg_query(): supplied argument is not a valid PostgreSQL link resource in <b>/export/grieg/1/rectangles/public_html/cgi-bin/labs/labusage.php</b> on line <b>68</b><br />
+<br />
+<b>Warning</b>:  pg_fetch_row() expects parameter 1 to be resource, boolean given in <b>/export/grieg/1/rectangles/public_html/cgi-bin/labs/labusage.php</b> on line <b>69</b><br />
+<br />
+<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/export/grieg/1/rectangles/public_html/cgi-bin/labs/labusage.php</b> on line <b>31</b><br />
+<br />
+<b>Warning</b>:  pg_query(): supplied argument is not a valid PostgreSQL link resource in <b>/export/grieg/1/rectangles/public_html/cgi-bin/labs/labusage.php</b> on line <b>68</b><br />
+<br />
+<b>Warning</b>:  pg_fetch_row() expects parameter 1 to be resource, boolean given in <b>/export/grieg/1/rectangles/public_html/cgi-bin/labs/labusage.php</b> on line <b>69</b><br />
+<br />
+<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/export/grieg/1/rectangles/public_html/cgi-bin/labs/labusage.php</b> on line <b>31</b><br />
+<br />
+<b>Warning</b>:  pg_query(): supplied argument is not a valid PostgreSQL link resource in <b>/export/grieg/1/rectangles/public_html/cgi-bin/labs/labusage.php</b> on line <b>68</b><br />
+<br />
+<b>Warning</b>:  pg_fetch_row() expects parameter 1 to be resource, boolean given in <b>/export/grieg/1/rectangles/public_html/cgi-bin/labs/labusage.php</b> on line <b>69</b><br />
+<br />
+<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/export/grieg/1/rectangles/public_html/cgi-bin/labs/labusage.php</b> on line <b>31</b><br />
+<br />
+<b>Warning</b>:  pg_query(): supplied argument is not a valid PostgreSQL link resource in <b>/export/grieg/1/rectangles/public_html/cgi-bin/labs/labusage.php</b> on line <b>68</b><br />
+<br />
+<b>Warning</b>:  pg_fetch_row() expects parameter 1 to be resource, boolean given in <b>/export/grieg/1/rectangles/public_html/cgi-bin/labs/labusage.php</b> on line <b>69</b><br />
+<br />
+<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/export/grieg/1/rectangles/public_html/cgi-bin/labs/labusage.php</b> on line <b>31</b><br />
+<br />
+<b>Warning</b>:  pg_query(): supplied argument is not a valid PostgreSQL link resource in <b>/export/grieg/1/rectangles/public_html/cgi-bin/labs/labusage.php</b> on line <b>68</b><br />
+<br />
+<b>Warning</b>:  pg_fetch_row() expects parameter 1 to be resource, boolean given in <b>/export/grieg/1/rectangles/public_html/cgi-bin/labs/labusage.php</b> on line <b>69</b><br />
+<br />
+<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/export/grieg/1/rectangles/public_html/cgi-bin/labs/labusage.php</b> on line <b>31</b><br />
+<br />
+<b>Warning</b>:  pg_query(): supplied argument is not a valid PostgreSQL link resource in <b>/export/grieg/1/rectangles/public_html/cgi-bin/labs/labusage.php</b> on line <b>68</b><br />
+<br />
+<b>Warning</b>:  pg_fetch_row() expects parameter 1 to be resource, boolean given in <b>/export/grieg/1/rectangles/public_html/cgi-bin/labs/labusage.php</b> on line <b>69</b><br />
+<br />
+<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/export/grieg/1/rectangles/public_html/cgi-bin/labs/labusage.php</b> on line <b>31</b><br />
+<br />
+<b>Warning</b>:  pg_query(): supplied argument is not a valid PostgreSQL link resource in <b>/export/grieg/1/rectangles/public_html/cgi-bin/labs/labusage.php</b> on line <b>68</b><br />
+<br />
+<b>Warning</b>:  pg_fetch_row() expects parameter 1 to be resource, boolean given in <b>/export/grieg/1/rectangles/public_html/cgi-bin/labs/labusage.php</b> on line <b>69</b><br />
+<br />
+<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/export/grieg/1/rectangles/public_html/cgi-bin/labs/labusage.php</b> on line <b>31</b><br />
+coordinates	regularname	day(1=mon,7=sun)	starttime	endtime	coursecode	weeksbitmap	numenrolled	maxenrollable	status	coursename

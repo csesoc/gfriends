@@ -1,0 +1,104 @@
+#!/usr/local/bin/bash
+
+short_hostname=${HOSTNAME:0:4}
+
+#case $short_hostname in
+#"pipe")
+#    ssh -Y weill ~stevec/gfriends
+#    ;;
+#"bugl")
+#    ssh -Y weill ~stevec/gfriends
+#    ;;
+#"tuba")
+#    ssh -Y weill ~stevec/gfriends
+#    ;;
+#"drum")
+#    ssh -Y weill ~stevec/gfriends
+#    ;;
+#"harp")
+#    ssh -Y weill ~stevec/gfriends
+#    ;;
+#"oboe")
+#    ssh -Y weill ~stevec/gfriends
+#    ;;
+#*)
+#    echo -n `id -un` >> /home/stevec/bin/gfred.users
+#    echo -n ' ' >> /home/stevec/bin/gfred.users
+#    echo `date` >> /home/stevec/bin/gfred.users
+#    echo -n 'User number '
+#    wc -l /home/stevec/bin/gfred.users|sed -e "s/ /\t/"|cut -f 1
+#echo -e "\e[0;31m If gfriends is broken, its these people's fault"
+#echo " for not turning the computer back on properly... "
+#/home/stevec/bin/broken_blame.pl
+#echo -e -n "\e[0m"
+
+if [ -x ~/.gfriends.d ]
+then
+    echo -n ""
+else
+    mkdir ~/.gfriends.d/
+fi
+
+    echo "Running..."
+    cd /home/stevec/TooheysExtraDry/
+#    /home/stevec/TooheysExtraDry/gfred.pl > /home/stevec/TooheysExtraDry/gfred.gfred
+    /home/stevec/TooheysExtraDry/gfred.pl > ~/.gfriends.d/gfred.gfred
+    echo 'Sprinting...'
+#if [ $LOGNAME = "vapa389" ] 
+#then
+#    java gfred v
+#else
+#    java gfred 
+#fi
+
+
+    case $LOGNAME in
+	"stevec")
+	    java -Xms64m -Xmx256m gfred sc -ustevec
+	    ;;
+	"wyos")
+	    java -Xms64m -Xmx256m gfred sc -uwyos
+	    ;;
+	"ajc")
+	    java -Xms64m -Xmx256m gfred sc -uajc
+	    ;;
+	"ruperts")
+	    java -Xms64m -Xmx256m gfred sc -uruperts
+	    ;;
+	"glenk")
+	    java -Xms46m -Xmx256m gfred sc -uglenk
+	    ;;
+        "marks")
+	    java -Xms64m -Xmx256m gfred sc -umarks
+	    ;;
+	"amyo855")
+	    java -Xms64m -Xmx256m gfred sc -uamyo855
+	    ;;
+	"mych691")
+	    java -Xms64m -Xmx256m gfred sc -umych691
+	    ;;
+	"konk")
+	    java -Xms64m -Xmx256m gfred sc -ukonk
+	    ;;
+	"ramanak")
+	    java -Xms64m -Xmx256m gfred sc -uramanak
+	    ;;
+	"cman")
+	    java -Xms64m -Xmx256m gfred sc -ucman
+	    ;;
+	*)
+	    java -Xms64m -Xmx256m gfred -u$LOGNAME
+	    ;;
+    esac
+    
+    cd -
+#    ;;
+#esac
+
+
+#echo ""
+#echo "+----------------------------------------------------------------------------+"
+#echo "|If the lab command is broken (which seems to be the case in some labs today)|"
+#echo "| try running this backup friends script: /home/stevec/bin/rawfred           |"
+#echo "+----------------------------------------------------------------------------+"
+#echo ""

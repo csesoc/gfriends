@@ -1,0 +1,8 @@
+#!/usr/local/bin/perl
+
+$friends_file = "$ENV{HOME}/.friends";
+
+$login=$ARGV[0];
+$nick=$ARGV[1];
+
+system("echo \"\nname = $login, $nick\" >> $friends_file");

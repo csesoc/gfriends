@@ -1,0 +1,141 @@
+
+Lab tuba is CLOSED, last allocation by tuba00 for 27jun 23:30 (at 27/06;23:23:05)
+
+tuba00:0    :Up         Allocated:                        
+tuba01:0    :Up         Allocated:                        
+tuba02:0    :Up         Allocated:                         since 27/06;08:49:08
+tuba03:0    :Up         Allocated:                        
+tuba04:0    :Up         Allocated:                         since 27/06;08:48:22
+tuba05:0    :Up         Allocated:                         since 27/06;10:34:45
+tuba06:0    :Up         Allocated:                         since 26/06;13:37:51
+tuba07:0    :Up         Allocated:                         since 27/06;12:58:46
+tuba08:0    :Up         Allocated:                         since 27/06;19:09:33
+tuba09:0    :Up         Allocated:                         since 27/06;19:10:24
+tuba10:0    :Up         Allocated:                         since 27/06;19:10:16
+tuba11:0    :Up         Allocated:                         since 25/06;15:52:53
+tuba12:0    :Up         Allocated:                         since 26/06;15:45:39
+tuba13:0    :Up         Allocated:                         since 25/06;14:32:05
+tuba14:0    :Up         Allocated:                         since 27/06;12:49:01
+tuba15:0    :Up         Allocated:                         since 25/06;12:18:37
+tuba16:0    :Up         Allocated:                         since 26/06;18:11:46
+tuba17:0    :Up         Allocated:                         since 27/06;17:09:52
+tuba18:0    :Up         Allocated:                         since 27/06;13:39:52
+tuba19:0    :Up         Allocated:                         since 27/06;13:40:10
+tuba20:0    :Up         Allocated:                         since 27/06;10:42:47
+
+Lab oboe is CLOSED, last allocation by oboe00 for 27jun 23:30 (at 27/06;23:23:02)
+
+oboe00:0    :Up         Allocated:                         since 27/06;13:27:06
+oboe01:0    :Up         Allocated:                         since 27/06;14:37:28
+oboe02:0    :Up         Allocated:                         since 27/06;16:07:09
+oboe03:0    :Up         Allocated:                         since 27/06;14:16:22
+oboe04:0    :Up         Allocated:                         since 27/06;17:45:36
+oboe05:0    :Up         Allocated:                         since 26/06;12:30:44
+oboe06:0    :Up         Allocated:                        
+oboe07:0    :Up         Allocated:                         since 23/06;16:01:56
+oboe08:0    :Up         Allocated:                         since 25/06;14:18:53
+oboe09:0    :Up         Allocated:                         since 27/06;21:00:03
+oboe10:0    :Up         Allocated:                         since 27/06;17:59:32
+oboe11:0    :Up         Allocated:                         since 27/06;17:57:26
+oboe12:0    :Up         Allocated:                        
+oboe13:0    :Up         Allocated:                         since 27/06;16:40:04
+oboe14:0    :Up         Allocated:                         since 26/06;14:40:54
+oboe15:0    :Up         Allocated:                         since 27/06;17:05:57
+oboe16:0    :Up         Allocated:                         since 27/06;17:05:47
+oboe17:0    :Up         Allocated:                         since 27/06;19:52:42
+oboe18:0    :Up         Allocated:                         since 27/06;20:53:19
+oboe19:0    :Up         Allocated:                         since 27/06;17:28:33
+
+Lab drum is CLOSED, last allocation by drum00 for 27jun 23:30 (at 27/06;23:23:29)
+
+drum00:0    :Up         Allocated:                         since 27/06;11:35:28
+drum01:0    :Up         Allocated:                         since 27/06;17:34:58
+drum02:0    :Up         Allocated:                         since 27/06;19:26:56
+drum03:0    :Up         Allocated:                         since 27/06;19:16:21
+drum04:0    :Up         Allocated:                         since 27/06;13:58:05
+drum05:0    :Up         Allocated:                         since 27/06;13:01:45
+drum06:0    :Up         Allocated:                         since 27/06;14:13:17
+drum07:0    :Up         Allocated:                         since 27/06;12:05:51
+drum08:0    :Up         Allocated:                         since 25/06;16:59:49
+drum09:0    :Up         Allocated:                         since 27/06;18:47:11
+drum10:0    :Up         Allocated:                         since 27/06;20:47:17
+drum11:0    :Up         Allocated:                         since 27/06;18:41:37
+drum12:0    :Up         Allocated:                         since 27/06;18:41:18
+drum13:0    :Up         Allocated:                         since 27/06;18:38:29
+drum14:0    :Up         Allocated:                         since 27/06;16:46:34
+drum15:0    :Up         Allocated:                         since 27/06;17:00:46
+drum16:0    :Up         Allocated:                         since 27/06;17:30:49
+drum17:0    :Up         Allocated:                         since 27/06;20:55:17
+drum18:0    :Up         Allocated:                         since 27/06;18:41:00
+drum19:0    :Up         Allocated:                         since 27/06;12:37:42
+
+Lab bell is FREE, last allocation by bell00 for 27jun 23:30 (at 27/06;23:23:28)
+
+bell00:0    :Up       UnAllocated:                         since 27/06;23:07:07
+bell01:0    :Up       UnAllocated:                         since 27/06;17:21:44
+bell02:0    :Up       UnAllocated:                         since 27/06;13:08:39
+bell03:0    :Up       UnAllocated:                         since 27/06;22:43:48
+bell04:0    :Up       UnAllocated:                         since 27/06;22:43:13
+bell05:0    :Up       UnAllocated:                         since 26/06;16:44:54
+bell06:0    :Up       UnAllocated:                         since 27/06;22:50:21
+bell07:0    :Up       UnAllocated: zmfe396                 since 27/06;11:37:23
+bell08:0    :Up       UnAllocated:                         since 27/06;00:00:02
+bell09:0    :Up       UnAllocated:                         since 27/06;13:25:29
+bell10:0    :Up       UnAllocated:                         since 25/06;10:07:34
+bell11:0    :Up       UnAllocated:                         since 25/06;12:34:33
+bell12:0    :Up       UnAllocated:                         since 27/06;21:06:52
+bell13:0    :Up       UnAllocated:                         since 27/06;12:26:26
+bell14:0    :Up       UnAllocated:                         since 25/06;19:28:45
+bell15:0    :Up       UnAllocated:                         since 27/06;13:54:05
+bell16:0    :Up       UnAllocated:                         since 27/06;13:52:50
+bell17:0    :Up       UnAllocated:                         since 26/06;19:23:42
+bell18:0    :Up       UnAllocated:                         since 27/06;23:04:40
+bell19:0    :Up       UnAllocated:                        
+
+Lab leaf is FREE, last allocation by leaf00 for 27jun 23:30 (at 27/06;23:23:10)
+
+leaf00:0    :Up       UnAllocated:                         since 27/06;21:31:47
+leaf01:0    :Up       UnAllocated:                         since 27/06;17:38:31
+leaf02:0    :Up       UnAllocated:                         since 27/06;18:06:33
+leaf03:0    :Up       UnAllocated:                         since 27/06;16:29:21
+leaf04:0    :Up       UnAllocated:                         since 27/06;21:43:24
+leaf05:0    :Up       UnAllocated:                         since 27/06;17:23:51
+leaf06:0    :Up       UnAllocated:                         since 27/06;12:13:54
+leaf07:0    :Up       UnAllocated:                         since 27/06;15:59:54
+leaf08:0    :Up       UnAllocated:                         since 27/06;14:23:50
+leaf09:0    :Up       UnAllocated:                         since 27/06;17:14:12
+leaf10:0    :Up       UnAllocated:                         since 27/06;17:14:39
+leaf11:0    :Up       UnAllocated: pyng201                 since 27/06;23:29:35
+leaf12:0    :Up       UnAllocated:                         since 27/06;08:33:18
+leaf13:0    :Up       UnAllocated:                         since 25/06;22:52:32
+leaf14:0    :Up       UnAllocated:                         since 27/06;12:32:49
+leaf15:0    :Up       UnAllocated:                         since 26/06;16:24:14
+leaf16:0    :Up       UnAllocated:                         since 27/06;22:46:52
+leaf17:0    :Up       UnAllocated:                         since 25/06;14:23:52
+leaf18:0    :Up       UnAllocated:                         since 27/06;21:30:29
+
+Lab oud is FREE, last allocation by oud00 for 27jun 23:30 (at 27/06;23:23:06)
+
+oud00:0     :Up       UnAllocated:                         since 08/06;18:12:39
+oud01:0     :Up       UnAllocated:                         since 18/06;13:53:13
+oud02:0     :Up       UnAllocated:                         since 08/06;15:26:37
+oud03:0     :Up       UnAllocated: yzha557                 since 08/06;14:23:52
+oud04:0     :Up       UnAllocated:                         since 08/06;17:17:44
+oud05:0     :Up       UnAllocated:                         since 07/06;15:40:54
+oud06:0     :Up       UnAllocated:                         since 07/06;20:01:29
+oud07:0     :Up       UnAllocated:                         since 08/06;15:11:33
+oud08:0     :Up       UnAllocated:                         since 20/06;08:38:00
+oud09:0     :Up       UnAllocated:                         since 27/06;18:45:54
+oud10:0     :Up       UnAllocated:                         since 27/06;19:00:39
+oud11:0     :Up       UnAllocated:                         since 25/06;10:23:21
+oud12:0     :Up       UnAllocated:                         since 20/06;14:36:23
+oud13:0     :Up       UnAllocated:                         since 27/06;14:09:15
+oud14:0     :Up       UnAllocated:                         since 20/06;16:54:44
+oud15:0     :Up       UnAllocated:                         since 08/06;18:09:32
+:46
+banjo16:0   :Up       UnAllocated:                         since 26/06;15:18:23
+banjo17:0   :Up       UnAllocated: satab                   since 15/06;16:53:58
+banjo18:0   :Up       UnAllocated:                         since 22/06;16:35:52
+banjo19:0   :Up       UnAllocated:                         since 26/06;15:37:09
+2
+bugle20:0   :Up         Allocated:                         since 27/06;20:55:11

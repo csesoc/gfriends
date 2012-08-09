@@ -1,0 +1,7 @@
+#!/usr/local/bin/bash
+
+if [ -z $1 ]; then
+  echo ""
+else
+  pp $1|grep Student|cut -d : -f 2|sed -e "s/,/\n/"|grep Student|cut -d _ -f 1|grep -e ....[0-9][0-9][0-9][0-9]
+fi

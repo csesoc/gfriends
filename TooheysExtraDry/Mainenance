@@ -1,0 +1,15 @@
+
+At the beginning of each session, go into the file "lab_outlook.pl"
+and change the "$session" variable to the new session. This is
+so that the proper lab bookings for classes can be looked up from
+'give's records.
+
+
+----------------------------------------------------------
+Now that we're going off the Rectangles data, at the start
+of every session run these commands in the TooheysExtraDry
+directory:
+
+wget http://rectangles.srvr.cse.unsw.edu.au/cgi-bin/labs/labusage.php
+mv labusage.php mjc.txt
+chmod 755 mjc.txt

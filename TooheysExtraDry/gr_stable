@@ -1,0 +1,13 @@
+#!/usr/local/bin/bash
+
+echo -n `id -un` >> /home/stevec/bin/gfred.users
+echo -n ' ' >> /home/stevec/bin/gfred.users
+echo `date` >> /home/stevec/bin/gfred.users
+echo -n 'User number '
+wc -l /home/stevec/bin/gfred.users|sed -e "s/ /\t/"|cut -f 1
+echo 'Running...'
+cd /home/stevec/TooheysExtraDry/
+/home/stevec/TooheysExtraDry/gfred_stable.pl > /home/stevec/TooheysExtraDry/gfred.gfred
+echo 'Sprinting...'
+java gfred
+cd -

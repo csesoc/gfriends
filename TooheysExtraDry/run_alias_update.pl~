@@ -1,0 +1,9 @@
+#!/usr/local/bin/perl
+
+$friends="$ENV{HOME}/.friends";
+
+# just incase something fk's up
+system("cp $friends $friends.backup");
+
+system("/home/stevec/TooheysExtraDry/update_friends_aliases.pl | uniq > /tmp/.friends.up ; cp /tmp/.friends.up $friends");
+
